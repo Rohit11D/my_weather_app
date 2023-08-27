@@ -1,8 +1,24 @@
 body{
-    background-image: linear-gradient(rgb(0, 217, 255),rgb(0, 255, 191),rgb(124, 121, 121));
+    cursor:default;
+    background-image: url("indiamap.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+    /* background-image: linear-gradient(rgb(0, 217, 255),rgb(0, 255, 191),rgb(124, 121, 121)); */
+}
+.nav-link{
+    color: white;
 }
 .heading1{
     margin: 2rem 0 2rem 0;
+}
+.nav-btn-1{
+    color: aliceblue;
+   border-width: 0.2vh;
+   border-color: white;
+}
+.nav-btn-1:hover{
+    background-color:aliceblue;
+    color: black;
 }
 /* nav#navbar1{ */
     /* background-color: coral; */
